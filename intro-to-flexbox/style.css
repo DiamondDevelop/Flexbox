@@ -1,5 +1,21 @@
 /* --- General --- */
+.group {
+  display: flex;
+  flex-direction: row; /* or column */
+}
 
+/* set flex property flex setting to 1 
+(declaration sets same width of content in .group container) */
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+/* additional .item-double class set flex value to 2/ when applied with 
+.item class, new container will display double the size*/
+.item-double {
+  flex: 2;
+}
 
 main {
   padding: 20px 0;
